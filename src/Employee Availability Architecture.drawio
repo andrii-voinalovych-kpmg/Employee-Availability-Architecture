@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T09:49:49.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Cby8wnJLnTNDoo3NX-0C" version="21.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T09:45:45.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="WjRWpEn6UJjnDc4gTw9K" version="21.2.3" type="github">
   <diagram name="Page-1" id="EcyBj0qiCMglR1N4Lg6O">
-    <mxGraphModel dx="1784" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2537" dy="1999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,20 +70,23 @@
         <mxCell id="KXue2aMbg075SF02Jcah-20" value="Reports_CS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="620" y="-600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qNrUj9p6yA02Cgj47pUR-1" value="CommonActions_CS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qNrUj9p6yA02Cgj47pUR-1" value="CommonActions_CS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="-600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qNrUj9p6yA02Cgj47pUR-2" value="Core(portal) module that responsible for :&lt;br&gt;&lt;ul&gt;&lt;li&gt;compiling screens from CW modules;&lt;/li&gt;&lt;li&gt;providing navigation through screens logic&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qNrUj9p6yA02Cgj47pUR-2" value="Core(portal) module that responsible for :&lt;br&gt;&lt;ul&gt;&lt;li&gt;compiling screens from CW modules;&lt;/li&gt;&lt;li&gt;providing navigation through screens logic&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="-260" width="430" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qNrUj9p6yA02Cgj47pUR-3" value="Front end modules that are responsible for :&lt;br&gt;&lt;ul&gt;&lt;li&gt;screens visualisation;&lt;/li&gt;&lt;li&gt;consuming data from CS and visualizing it (no business logic included)&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qNrUj9p6yA02Cgj47pUR-3" value="Front end modules that are responsible for :&lt;br&gt;&lt;ul&gt;&lt;li&gt;screens visualisation;&lt;/li&gt;&lt;li&gt;consuming data from CS and visualizing it (no business logic included)&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1050" y="-380" width="430" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qNrUj9p6yA02Cgj47pUR-4" value="Lib module that is responsible for :&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;providing CW modules with reusable elements (buttons, selects, etc.);&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;no data is consuming through lib module but there should be an interface for consummate&amp;nbsp;in CW where the module is used;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qNrUj9p6yA02Cgj47pUR-4" value="Lib module that is responsible for :&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;providing CW modules with reusable elements (buttons, selects, etc.);&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;no data is consuming through lib module but there should be an interface for consummate&amp;nbsp;in CW where the module is used;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="-490" width="430" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qNrUj9p6yA02Cgj47pUR-5" value="Back end modules that are responsible for :&lt;br&gt;&lt;ul&gt;&lt;li&gt;storing data for application;&lt;/li&gt;&lt;li&gt;providing all server action (business logic) instances that are consumable in CW modules;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="900" y="-605" width="430" height="80" as="geometry" />
+        <mxCell id="qNrUj9p6yA02Cgj47pUR-5" value="Back end modules that are responsible for :&lt;br&gt;&lt;ul&gt;&lt;li&gt;storing data for application;&lt;/li&gt;&lt;li&gt;providing all server action (business logic) instances that are consumable in CW modules;&lt;/li&gt;&lt;li&gt;storing client data;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="-605" width="430" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nKooIkmwP3BJw4Nt55MR-1" value="ClientData_Svc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="-600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
